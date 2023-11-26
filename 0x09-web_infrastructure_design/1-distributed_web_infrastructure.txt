@@ -14,7 +14,9 @@ can handle a larger volume of traffic.
 Web Server (Nginx): It was added because, Nginx serves as the web server, handling HTTP requests
 and directing them to the application server.
 
-How a Database Primary-Replica (Master-Slave) Cluster Works: A primary-replica (master-slave) cluster is a type of database architecture that consists of two nodes: a primary node and a replica node. The primary node handles all write operations, and the replica node mirrors the data from the primary node.
+How a Database Primary-Replica (Master-Slave) Cluster Works: A primary-replica (master-slave) cluster 
+is a type of database architecture that consists of two nodes: a primary node and a replica node. The 
+primary node handles all write operations, and the replica node mirrors the data from the primary node.
 
 Difference Between Primary and Replica Nodes in Relation to the Application:
 Primary Node: Accepts write operations, which make changes to the database.

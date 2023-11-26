@@ -4,7 +4,8 @@ Task 2
 Explanations:
 Why additional elements were added: Adding firewalls enhances security, SSL certificates
 encrypt data for safe transmission, and monitoring clients ensure continuous visibility,
-collectively safeguarding my web infrastructure from unauthorized access, data breaches, and performance issues.
+collectively safeguarding my web infrastructure from unauthorized access, data breaches, and 
+performance issues.
 
 What are firewalls for: Firewalls are needed in a web infrastructure to act as a
 protective barrier, monitoring and controlling incoming and outgoing network traffic.

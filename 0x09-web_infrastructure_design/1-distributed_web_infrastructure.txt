@@ -24,7 +24,8 @@ Replica Node: Mirrors data from the primary node and is used for read operations
 write operations directly.
  
 Issues:
-SPOF: The load balancer is a potential single point of failure. If it fails, all incoming traffic is disrupted.
+SPOF: The load balancer is a potential single point of failure. If it fails, all incoming traffic is 
+disrupted.
 
 Security issues:
 No firewall exposes the servers and database to potential threats.

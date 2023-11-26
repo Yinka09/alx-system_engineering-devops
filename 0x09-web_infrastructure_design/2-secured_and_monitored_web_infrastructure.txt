@@ -22,7 +22,8 @@ such as login credentials and personal data, enhancing overall user privacy and 
 What monitoring is used for: Server monitoring in a web infrastructure is used to observe
 and track the performance, health, and availability of servers. It helps identify issues,
 such as high resource usage or potential failures, in real time. Monitoring ensures proactive
-management, timely problem resolution, and optimal performance, enhancing the reliability and efficiency of the web infrastructure.
+management, timely problem resolution, and optimal performance, enhancing the reliability and 
+efficiency of the web infrastructure.
 
 How the monitoring tool is collecting data: It observes and records key metrics like query performance, 
 database connections, and server resource usage, providing real-time insights into the health and 

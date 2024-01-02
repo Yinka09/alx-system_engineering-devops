@@ -1,0 +1,5 @@
+# Share your SSH client configuration
+
+Host myserver
+	PasswordAuthentication no
+	IdentityFile ~/.ssh/school

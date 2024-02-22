@@ -1,13 +1,11 @@
-# Increases the amount of traffic an Nginx server can handle.
+# puppet manifest to change the limit of file descriptor
 
-# Increase the ULIMIT of the default file
 exec { 'fix--for-nginx':
   command => 'sed -i "s/15/4096/" /etc/default/nginx',
-  path    => '/usr/local/bin/:/bin/'
-} ->
+  path    => '/usr/local/bin/:/bin/',
+}
 
-# Restart Nginx
-exec { 'nginx-restart':
+-> exec { 'restart-nginx':
   command => 'nginx restart',
-  path    => '/etc/init.d/'
+  path    => '/etc/init.d/',
 }
